@@ -1,6 +1,6 @@
 #the program gets a random word from user and prints back the word 
 #with capital letters at the second half of the word.
-#if number of letters is odd the second half 1 letter bigger.
+#if number of letters is odd; the second half is 1 letter bigger.
 
 word = input("please wright a random word that pops in your mind:")
 total = len(word)
