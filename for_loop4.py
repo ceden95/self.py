@@ -13,5 +13,6 @@ def sequence_del(my_str):
         if letter != prev_letter:
             new_str += letter
             prev_letter = letter
+    print(new_str)
         
 main()
