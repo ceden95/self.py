@@ -10,12 +10,8 @@ def sequence_del(my_str):
     prev_letter = ""
     new_str = ""
     for letter in my_str:
-        if letter == prev_letter:
-            continue
-        else:
+        if letter != prev_letter:
             new_str += letter
-        prev_letter = letter
-    print(new_str)
+            prev_letter = letter
         
-
 main()
