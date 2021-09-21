@@ -1,8 +1,8 @@
 #the program answer True if the two files are equal or False if not.
 
 def main():
-    file1 = r"C:\python course\9.1.1\file1_for_filesComparison.txt" 
-    file2 = r"C:\python course\9.1.1\file2_for_filesComparison.txt"  
+    file1 = r"file1_for_filesComparison.txt" 
+    file2 = r"file2_for_filesComparison.txt"  
     trueOrFalse = are_files_equal(file1, file2)
     print(trueOrFalse)
 
